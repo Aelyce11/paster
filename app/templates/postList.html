@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul>
+    {% for post in postList%}
+    <li>
+        <a href="/articles/{{post.path}}">{{post.title}}</a>
+    </li>
+    {% endfor %}
+
+</ul>
+{% endblock %}

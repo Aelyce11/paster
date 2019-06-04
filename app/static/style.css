@@ -1,0 +1,94 @@
+* {
+  background: none;
+  margin: 0;
+  border: none;
+  padding: 0;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace; }
+
+body {
+  width: 100vw;
+  background-color: black;
+  font-size: 20px;
+  min-height: 100vh;
+  line-height: 1.3em; }
+
+a {
+  text-decoration: underline; }
+  a:hover {
+    color: #e99090; }
+
+nav {
+  border-bottom: 1px solid white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  nav a {
+    margin-left: 1.5em; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 150px 1.5em;
+  box-sizing: border-box;
+  min-height: 90vh; }
+  main footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2em; }
+
+p {
+  width: 80%;
+  margin-bottom: 1em;
+  word-wrap: anywhere; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%; }
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em; }
+    form div label {
+      margin-right: 1em;
+      font-size: 1.1em; }
+    form div .error {
+      color: #c22020; }
+
+input {
+  border-bottom: 1px solid white;
+  padding: 0.5em 1em;
+  width: 80%;
+  font-size: 1em; }
+  input::placeholder {
+    color: #ffffff80; }
+  input:focus {
+    border-color: #e99090; }
+  input[type="submit"] {
+    background-color: white;
+    border: none;
+    color: black;
+    align-self: center;
+    width: auto; }
+    input[type="submit"]:hover {
+      background-color: #e99090;
+      cursor: pointer; }
+
+textarea {
+  border: 1px solid white;
+  padding: 0.5em 1em;
+  width: 80%;
+  font-size: 1em; }
+  textarea::placeholder {
+    color: #ffffff80; }
+  textarea:focus {
+    border-color: #e99090; }
+
+/*# sourceMappingURL=style.css.map */
